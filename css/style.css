@@ -168,6 +168,16 @@ section.grid h3 {
     margin-bottom: 6px;
 }
 
+.card.transition {
+    transition: all 0.3s ease;
+}
+
+.card.transition:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(88, 166, 255, 0.15);
+    border-color: #58a6ff;
+}
+
 @media(max-width: 900px) {
     .home {
         flex-direction: column-reverse;
