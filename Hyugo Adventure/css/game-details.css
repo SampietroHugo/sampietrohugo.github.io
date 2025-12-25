@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #1c212e;
+    margin: 0;
+    padding: 0;
+}
+
+.trainerCard,
+.main-team,
+.moments-album {
+    font-family: "Press Start 2P", monospace;
+    text-transform: uppercase;
+}
+
+#app-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.game-title {
+    display: block;
+    margin: 30px auto 40px;
+    max-width: 600px;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.7));
+    border-radius: 14px;
+}
+
+.trainerCard {
+    width: 800px;
+    max-width: 95%;
+    margin: 40px auto;
+    background-color: #2a3447;
+    border: 3px solid #4a5b6e;
+    border-radius: 4px;
+    box-shadow: 0 0 0 3px #f5d85b, 0 0 0 8px #4a5b6e, 0 8px 15px rgba(0, 0, 0, 0.5);
+    color: #c9d0e1;
+    padding: 0;
+    background-image: url('/img/structure/background/trainer-card.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    opacity: 0.95;
+    overflow: hidden;
+}
+
+.trainerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #d5b040, #f5d85b);
+    border-bottom: 3px solid #4a5b6e;
+    padding: 10px 15px;
+}
+
+.trainerHeader h2 {
+    font-size: 12px;
+    color: #2b2b2b;
+    margin: 0;
+    text-shadow: 1px 1px #fff;
+}
+
+.trainerHeader span {
+    font-size: 10px;
+    color: #2b2b2b;
+    text-shadow: 1px 1px #fff;
+}
+
+.trainerDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: 3px solid #4a5b6e;
+    padding: 15px 30px;
+    gap: 20px;
+    align-items: center;
+}
+
+.trainerDisplay .trainer-text-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.trainerDisplay .trainer-text-info p {
+    display: flex;
+    align-items: baseline;
+    margin: 5px 0;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.trainerDisplay .label {
+    color: #a8b3c9;
+}
+
+.trainerDisplay .value {
+    color: #ffffff;
+    margin-left: 8px;
+}
+
+.trainerDisplay img {
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-left: auto;
+    image-rendering: auto;
+    filter:
+        drop-shadow(0 0 1px #1c212e) drop-shadow(0 0 1px #1c212e) drop-shadow(0 0 1px #1c212e);
+}
+
+.trainer-info {
+    background: transparent;
+    padding: 15px;
+}
+
+.badge-title {
+    font-size: 10px;
+    color: #f5d85b;
+    text-shadow: 1px 1px #1c212e;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.badges {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    background-color: #1c212e;
+    border: 2px solid #f5d85b;
+    padding: 10px 5px;
+    justify-content: center;
+    box-shadow:
+        0 4px 0 #000,
+        0 6px 0 #4a5b6e,
+        0 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.badges img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(3px 3px 0 #000);
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.badges img:hover {
+    transform: scale(1.1);
+    filter:
+        drop-shadow(3px 3px 0 #000) drop-shadow(0 0 10px rgba(0, 0, 0, 0.9));
+}
+
+.main-team {
+    background: #1c212e;
+    border: 3px solid #4a5b6e;
+    border-radius: 8px;
+    box-shadow: 0 0 0 3px #60a0d0, 0 0 0 8px #4a5b6e, 0 8px 15px rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    max-width: 90%;
+    margin: 100px auto;
+    padding: 15px;
+    color: #c9d0e1;
+}
+
+.main-team .title {
+    background: #60a0d0;
+    border: 3px solid #4a5b6e;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1c212e;
+    text-shadow: 1px 1px #60a0d0;
+    box-shadow:
+        0 4px 0 #000,
+        0 6px 0 #4a5b6e,
+        0 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -5px;
+}
+
+.main-team .title h3 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.main-team ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .main-team ol {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-team {
+        width: 95%;
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-team ol {
+        grid-template-columns: 1fr;
+    }
+}
+
+.pokemonCard {
+    background: #2a3447;
+    border: 3px solid #4a5b6e;
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px #60a0d0, 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #c9d0e1;
+}
+
+.pokemonCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 2px #60a0d0, 0 6px 10px rgba(96, 160, 208, 0.5);
+}
+
+.sprite-container {
+    position: relative;
+    display: inline-block;
+}
+
+.sprite {
+    width: 96px;
+    height: 106px;
+    margin-bottom: 8px;
+    transform: translateZ(0);
+    filter: drop-shadow(2px 2px 0 #111);
+    transition: opacity 0.2s ease-in-out;
+}
+
+.item {
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid #bcd3de;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    padding: 2px;
+}
+
+.info {
+    width: 100%;
+    font-size: 9px;
+    text-align: left;
+    color: #c9d0e1;
+}
+
+.info h4 {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 6px;
+    color: #60a0d0;
+    text-shadow: 1px 1px #1c212e;
+    font-weight: bold;
+}
+
+.info p {
+    margin: 3px 0;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.info strong {
+    color: #a8b3c9;
+    font-size: 9px;
+    font-weight: normal;
+}
+
+.info .label {
+    color: #a8b3c9;
+}
+
+.info .value {
+    color: #ffffff;
+    margin-left: 4px;
+}
+
+.info .type-icon {
+    width: 60px;
+    height: 12px;
+    filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.3));
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.moves-list {
+    margin-top: 8px;
+    background: #1c212e;
+    border: 2px solid #4a5b6e;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 100%;
+}
+
+.moves-list strong {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 4px;
+    color: #60a0d0;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.moves-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.moves-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #4a5b6e;
+    border: 1px solid #2a3447;
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin-bottom: 4px;
+    font-size: 9px;
+    font-weight: bold;
+    color: #c9d0e1;
+}
+
+.moves-list li:hover {
+    background: #2a3447;
+    border-color: #60a0d0;
+    transform: scale(1.02);
+    transition: 0.15s ease;
+}
+
+.moves-list li span {
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.moves-list li img {
+    width: 55px;
+    height: 11px;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.icon-container-forms {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
+.form-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.7));
+}
+
+.form-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 1));
+}
+
+.shiny-icon {
+    background-image: none;
+    cursor: default;
+    filter: none;
+}
+
+.shiny-icon-emoji {
+    font-size: 16px;
+    filter: drop-shadow(0 0 3px #000);
+    line-height: 1;
+    cursor: default;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 0 3px #000);
+}
+
+.item.form-trigger {
+    cursor: pointer;
+}
+
+.sprite-hackrom {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 2px;
+}
+
+.moments-album {
+    background: #1c212e;
+    border: 3px solid #4a5b6e;
+    border-radius: 8px;
+    box-shadow: 0 0 0 3px #f5d85b, 0 0 0 8px #4a5b6e, 0 8px 15px rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    max-width: 90%;
+    margin: 100px auto;
+    padding: 15px;
+    color: #c9d0e1;
+}
+
+.moments-album .title {
+    background: #f5d85b;
+    border: 3px solid #4a5b6e;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1c212e;
+    text-shadow: 1px 1px #f5d85b;
+    box-shadow:
+        0 4px 0 #000,
+        0 6px 0 #4a5b6e,
+        0 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -5px;
+}
+
+.moments-album .title h3 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.moments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+.moment-thumbnail {
+    border: 3px solid #4a5b6e;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.moment-thumbnail:hover {
+    transform: scale(1.05);
+    border-color: #f5d85b;
+}
+
+.moment-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-content {
+    background-color: #2a3447;
+    border: 2px solid #f5d85b;
+    border-radius: 8px;
+}
+
+.modal-body {
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.modal-body img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.moment-description {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    margin-top: 15px;
+    text-transform: none;
+    overflow-y: auto;
+    max-height: 100px;
+    padding: 0 15px;
+}
+
+.moment-date {
+    font-family: "Press Start 2P", monospace;
+    font-size: 0.8em;
+    color: #a8b3c9;
+    text-transform: uppercase;
+    margin-top: auto;
+    padding-top: 15px;
+}

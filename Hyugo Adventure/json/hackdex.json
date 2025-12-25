@@ -1,0 +1,31 @@
+{
+    "pokemons": [
+        {
+            "type": [
+                "normal",
+                "flying"
+            ],
+            "image": "/img/hack-roms/pokemons/gen7/pikipek-shiny.png",
+            "name": "Pikipek",
+            "number": "#0731",
+            "species": "Woodpecker Pokémon",
+            "game": "Quetzal",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "This Pokémon feeds on berries, whose leftovers seeds become the ammunition for the attacks it fires off from its mouth. It uses holes in trees for nesting.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/25/2025",
+                "location": "Route 103",
+                "level": 4,
+                "nature": "Hasty",
+                "gender": "male",
+                "ability": "Skill Link",
+                "ot": "Hyugo",
+                "idNo": "50589"
+            },
+            "altForm": null
+        }
+    ]
+}

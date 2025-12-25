@@ -1,0 +1,304 @@
+{
+    "pokemons": [
+        {
+            "type": [
+                "fire",
+                "flying"
+            ],
+            "image": "/img/pokemons/RB/charizard.png",
+            "name": "Charizard",
+            "number": "#0006",
+            "species": "Flame Pokémon",
+            "game": "Red",
+            "team": true,
+            "shiny": false,
+            "trade": false,
+            "pokedexEntry": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/10/2025",
+                "location": "Pallet Town",
+                "level": 5,
+                "nature": null,
+                "gender": null,
+                "ability": null,
+                "ot": "Hyugo",
+                "idNo": "62319"
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "normal",
+                "flying"
+            ],
+            "image": "/img/pokemons/RB/pidgeot.png",
+            "name": "Pidgeot",
+            "number": "#0018",
+            "species": "Bird Pokémon",
+            "game": "Red",
+            "team": true,
+            "shiny": false,
+            "trade": false,
+            "pokedexEntry": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/10/2025",
+                "location": "Route 1",
+                "level": 3,
+                "nature": null,
+                "gender": null,
+                "ability": null,
+                "ot": "Hyugo",
+                "idNo": "62319"
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "poison",
+                "ground"
+            ],
+            "image": "/img/pokemons/RB/nidoqueen.png",
+            "name": "Nidoqueen",
+            "number": "#0031",
+            "species": "Drill Pokémon",
+            "game": "Red",
+            "team": true,
+            "shiny": false,
+            "trade": false,
+            "pokedexEntry": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/10/2025",
+                "location": "Route 22",
+                "level": 3,
+                "nature": null,
+                "gender": "female",
+                "ability": null,
+                "ot": "Hyugo",
+                "idNo": "62319"
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "grass",
+                "poison"
+            ],
+            "image": "/img/pokemons/RB/gloom.png",
+            "name": "Gloom",
+            "number": "#0044",
+            "species": "Weed Pokémon",
+            "game": "Red",
+            "team": true,
+            "shiny": false,
+            "trade": false,
+            "pokedexEntry": "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/10/2025",
+                "location": "Route 24",
+                "level": 14,
+                "nature": null,
+                "gender": null,
+                "ability": null,
+                "ot": "Hyugo",
+                "idNo": "62319"
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "electric"
+            ],
+            "image": "/img/pokemons/RB/electrode.png",
+            "name": "Electrode",
+            "number": "#0101",
+            "species": "Ball Pokémon",
+            "game": "Red",
+            "team": true,
+            "shiny": false,
+            "trade": false,
+            "pokedexEntry": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/12/2025",
+                "location": "Route 10",
+                "level": 14,
+                "nature": null,
+                "gender": null,
+                "ability": null,
+                "ot": "Hyugo",
+                "idNo": "62319"
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "water"
+            ],
+            "image": "/img/pokemons/RB/vaporeon.png",
+            "name": "Vaporeon",
+            "number": "#0134",
+            "species": "Bubble Jet Pokémon",
+            "game": "Red",
+            "team": true,
+            "shiny": false,
+            "trade": false,
+            "pokedexEntry": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid’s.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/15/2025",
+                "location": "Celadon City",
+                "level": 25,
+                "nature": null,
+                "gender": null,
+                "ability": null,
+                "ot": "Hyugo",
+                "idNo": "62319"
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "fire",
+                "flying"
+            ],
+            "image": "/img/pokemons/FRLG/charizard-shiny.png",
+            "name": "Charizard",
+            "number": "#0006",
+            "species": "Flame Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "Its wings can carry this POKéMON close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/16/2025",
+                "location": "Pallet Town",
+                "level": 5,
+                "nature": "Hasty",
+                "gender": "male",
+                "ability": "Blaze",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Soft Resetting",
+                "startDate": "12/15/2025",
+                "endDate": "12/16/2025",
+                "targetPokemon": "Charmander",
+                "phases": "1",
+                "totalEncounters": 2860
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "grass",
+                "poison"
+            ],
+            "image": "/img/pokemons/FRLG/vileplume-shiny.png",
+            "name": "Vileplume",
+            "number": "#0045",
+            "species": "Flower Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "Its petals are the largest in the world. It fiendishly scatters allergy-causing pollen from its petals.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/19/2025",
+                "location": "Route 25",
+                "level": 13,
+                "nature": "Quiet",
+                "gender": "male",
+                "ability": "Chlorophyll",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Random Encounter",
+                "startDate": "12/17/2025",
+                "endDate": "12/19/2025",
+                "targetPokemon": "Oddish",
+                "phases": "1",
+                "totalEncounters": 21870
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "bug",
+                "flying"
+            ],
+            "image": "/img/pokemons/FRLG/scyther-shiny.png",
+            "name": "Scyther",
+            "number": "#0123",
+            "species": "Mantis Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/21/2025",
+                "location": "Celadon City",
+                "level": 25,
+                "nature": "Lonely",
+                "gender": "male",
+                "ability": "Swarm",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Soft Resetting",
+                "startDate": "12/21/2025",
+                "endDate": "12/21/2025",
+                "targetPokemon": "Scyther",
+                "phases": "1",
+                "totalEncounters": 268
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "ghost",
+                "poison"
+            ],
+            "image": "/img/pokemons/FRLG/haunter-shiny.png",
+            "name": "Haunter",
+            "number": "#0093",
+            "species": "Gas Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "If you get the feeling of being watched in darkness when nobody is around, HAUNTER is there.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/21/2025",
+                "location": "Pokémon Tower",
+                "level": 13,
+                "nature": "Naughty",
+                "gender": "male",
+                "ability": "Levitate",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Random Encounter",
+                "startDate": "12/21/2025",
+                "endDate": "12/21/2025",
+                "targetPokemon": "Gastly",
+                "phases": "1",
+                "totalEncounters": 668
+            },
+            "altForm": null
+        }
+    ]
+}

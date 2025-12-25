@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéJourney - Pokédex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="/img/structure/icon/master-ball.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/pokedex-style.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="pokedex container my-4">
+
+        <header class="pokedex-header">
+            <h2 class="pokedex-title">Pokédex</h2>
+            <div class="pokedex-filter-controls">
+                <button class="pokedex-filter-btn" data-filter="all">Show All</button>
+                <button class="pokedex-filter-btn" data-filter="shiny">Shiny</button>
+                <button class="pokedex-filter-btn" data-filter="trade">Traded</button>
+                <button class="pokedex-filter-btn" data-filter="team">Team</button>
+                <div class="pokedex-dropdown" id="game-filter-dropdown">
+                    <button class="pokedex-filter-btn" id="game-filter-btn">Games ▼</button>
+                    <div class="pokedex-dropdown-menu" id="game-list-container">
+                    </div>
+                </div>
+                <div class="pokedex-dropdown" id="type-filter-dropdown">
+                    <button class="pokedex-filter-btn" id="type-filter-btn">Type ▼</button>
+                    <div class="pokedex-dropdown-menu" id="type-list-container">
+                        <div class="type-grid">
+                            <label class="type-normal"><input type="checkbox" value="Normal"> Normal</label>
+                            <label class="type-fire"><input type="checkbox" value="Fire"> Fire</label>
+                            <label class="type-water"><input type="checkbox" value="Water"> Water</label>
+                            <label class="type-electric"><input type="checkbox" value="Electric"> Electric</label>
+                            <label class="type-grass"><input type="checkbox" value="Grass"> Grass</label>
+                            <label class="type-ice"><input type="checkbox" value="Ice"> Ice</label>
+                            <label class="type-fighting"><input type="checkbox" value="Fighting"> Fighting</label>
+                            <label class="type-poison"><input type="checkbox" value="Poison"> Poison</label>
+                            <label class="type-ground"><input type="checkbox" value="Ground"> Ground</label>
+                            <label class="type-flying"><input type="checkbox" value="Flying"> Flying</label>
+                            <label class="type-psychic"><input type="checkbox" value="Psychic"> Psychic</label>
+                            <label class="type-bug"><input type="checkbox" value="Bug"> Bug</label>
+                            <label class="type-rock"><input type="checkbox" value="Rock"> Rock</label>
+                            <label class="type-ghost"><input type="checkbox" value="Ghost"> Ghost</label>
+                            <label class="type-dragon"><input type="checkbox" value="Dragon"> Dragon</label>
+                            <label class="type-dark"><input type="checkbox" value="Dark"> Dark</label>
+                            <label class="type-steel"><input type="checkbox" value="Steel"> Steel</label>
+                            <label class="type-fairy"><input type="checkbox" value="Fairy"> Fairy</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="pokedex-search-wrapper my-3">
+            <input type="text" id="pokedex-search" class="pokedex-search-bar" placeholder="Search by name or number...">
+        </div>
+
+        <section class="pokedex-grid row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4" id="poke-container">
+        </section>
+
+        <footer class="pokedex-footer-counts">
+            <span id="total-count">Total: 0</span>
+            <span id="shiny-count">Shiny: 0</span>
+            <span id="trade-count">Traded: 0</span>
+            <span id="team-count">Team: 0</span>
+        </footer>
+
+    </main>
+
+    <div class="custom-modal-overlay" id="modal-overlay"></div>
+
+    <div class="custom-modal" id="pokemon-detail-modal">
+
+        <button class="modal-nav-btn prev" id="modal-nav-prev" title="Anterior">◄</button>
+        <button class="modal-nav-btn next" id="modal-nav-next" title="Próximo">►</button>
+
+        <div class="modal-content pokedex-modal-content">
+            <div class="modal-header pokedex-modal-header">
+
+                <div class="pokedex-modal-title-wrapper">
+                    <h2 class="modal-title" id="modal-pokemon-name"></h2>
+                    <span class="pokedex-modal-number" id="modal-pokemon-number"></span>
+                </div>
+
+                <button type="button" class="custom-modal-close" id="modal-close-btn">&times;</button>
+
+            </div>
+
+            <div class="modal-body pokedex-modal-body">
+                <div class="row">
+                    <div class="col-md-5 text-center">
+                        <div class="pokedex-modal-image-wrapper">
+                            <img src="" alt="Pokémon Sprite" id="modal-pokemon-image">
+                        </div>
+
+                        <div class="modal-icon-container" id="modal-icon-container"></div>
+                        <div class="modal-alt-form-container mt-3" id="modal-alt-form-container"></div>
+                    </div>
+
+                    <div class="col-md-7">
+                        <p class="pokedex-modal-species" id="modal-pokemon-species"></p>
+                        <p class="pokedex-modal-entry" id="modal-pokemon-entry"></p>
+                        <div class="modal-type-container" id="modal-type-container"></div>
+
+                        <hr>
+
+                        <div class="d-flex align-items-center justify-content-between mb-2 px-2">
+                            <button type="button" class="memo-arrow">◄</button>
+                            <h3 class="pokedex-modal-subtitle mb-0 border-0" id="memo-toggle-title"
+                                style="width: 200px; text-align: center;">Catch Info</h3>
+                            <button type="button" class="memo-arrow">►</button>
+                        </div>
+
+                        <div class="memo-content-wrapper">
+
+                            <div id="memo-section-catch" class="memo-fade-in">
+                                <div class="memo-info-grid">
+                                    <span class="memo-label">Game:</span>
+                                    <span class="memo-value" id="modal-info-game"></span>
+
+                                    <span class="memo-label">Location:</span>
+                                    <span class="memo-value" id="modal-info-location"></span>
+
+                                    <span class="memo-label">Met at:</span>
+                                    <span class="memo-value" id="modal-info-level"></span>
+
+                                    <span class="memo-label">Ball:</span>
+                                    <span class="memo-value">
+                                        <img id="modal-info-ball" class="modal-ball-img" src="" alt="ball">
+                                    </span>
+
+                                    <span class="memo-label">Date:</span>
+                                    <span class="memo-value" id="modal-info-date"></span>
+                                </div>
+                            </div>
+
+                            <div id="memo-section-info" class="memo-fade-in d-none">
+                                <div class="memo-info-grid">
+                                    <span class="memo-label">Nature:</span>
+                                    <span class="memo-value" id="modal-info-nature"></span>
+
+                                    <span class="memo-label">Gender:</span>
+                                    <span class="memo-value" id="modal-info-gender"></span>
+
+                                    <span class="memo-label">Ability:</span>
+                                    <span class="memo-value" id="modal-info-ability"></span>
+
+                                    <span class="memo-label">OT:</span>
+                                    <span class="memo-value" id="modal-info-ot"></span>
+                                </div>
+                            </div>
+
+
+                            <div id="memo-section-shiny-hunt" class="memo-fade-in d-none">
+                                <div class="memo-info-grid">
+                                    <span class="memo-label">Method:</span>
+                                    <span class="memo-value" id="modal-shiny-method"></span>
+
+                                    <span class="memo-label">Target:</span>
+                                    <span class="memo-value" id="modal-shiny-target"></span>
+
+                                    <span class="memo-label">Start Date:</span>
+                                    <span class="memo-value" id="modal-shiny-start"></span>
+
+                                    <span class="memo-label">End Date:</span>
+                                    <span class="memo-value" id="modal-shiny-end"></span>
+
+                                    <span class="memo-label">Encounters:</span>
+                                    <span class="memo-value" id="modal-shiny-encounters"></span>
+
+                                    <span class="memo-label">Phases:</span>
+                                    <span class="memo-value" id="modal-shiny-phases"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/partials.js"></script>
+    <script src="/js/insert-pokedex.js"></script>
+</body>
+
+</html>

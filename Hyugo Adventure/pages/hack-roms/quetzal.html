@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PokéJourney</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="/img/structure/icon/master-ball.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game-details.css">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <div id="app-content">
+        <h1 class="text-center mt-5 text-white">Loading Game Details...</h1>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script id="game-template" type="text/x-handlebars-template">
+
+    <img class="game-title" src="{{gameLogoSrc}}" alt="{{title}} Logo">
+
+    <div class="trainerCard">
+        <div class="trainerHeader">
+            <h2>Trainer Card</h2>
+            {{#if trainer.id}}
+            <span>IDNo. {{trainer.id}}</span>
+            {{/if}}
+        </div>
+
+        <div class="trainerDisplay">
+            <div class="trainer-text-info">
+
+                {{#if trainer.name}}
+                    <p><span class="label">Name:</span> <span class="value">{{trainer.name}}</span></p>
+                {{/if}}
+
+                {{#if trainer.startDate}}
+                    <p><span class="label">Start:</span> <span class="value">{{trainer.startDate}}</span></p>
+                {{/if}}
+
+                {{#if trainer.pokedexStatus}}
+                    <p><span class="label">Pokédex:</span> <span class="value">{{trainer.pokedexStatus}}</span></p>
+                {{/if}}
+
+                {{#if trainer.nationaldexStatus}}
+                    <p><span class="label">Nationaldex:</span> <span class="value">{{trainer.nationaldexStatus}}</span></p>
+                {{/if}}
+
+                {{#if trainer.finished}}
+                    <p><span class="label">Finished:</span> <span class="value">{{trainer.finished}}</span></p>
+                {{/if}}
+
+            </div>
+
+            {{#if trainer.imageSrc}}
+            <img src="{{trainer.imageSrc}}" alt="{{trainer.imageAlt}}">
+            {{/if}}
+        </div>
+
+        {{#if badges.length}}
+        <div class="trainer-info">
+            <h3 class="badge-title">Badges</h3>
+            <div class="badges">
+                {{#each badges}}
+                    {{#if this.src}}
+                        <img src="{{this.src}}" alt="{{this.alt}}" title="{{this.title}}">
+                    {{/if}}
+                {{/each}}
+            </div>
+        </div>
+        {{/if}}
+    </div>
+
+    {{#if team.length}}
+    <div class="main-team">
+        <div class="title">
+            <h3>Main Team</h3>
+        </div>
+
+        <ol>
+            {{#each team}}
+            <li>
+                <div class="pokemonCard">
+                    <div class="sprite-container">
+                        
+                        <img class="{{../spriteClass}}" src="{{this.spriteSrc}}" alt="{{this.name}}">
+
+                        <div class="icon-container-forms">
+
+                            {{#if this.isShiny}}
+                                <span class="shiny-icon-emoji" title="Shiny">✨</span>
+                            {{/if}}
+
+                            {{#if this.altForm}}
+                                <div class="form-icon form-trigger" 
+                                     style="background-image: url('{{this.altForm.icon}}')" 
+                                     title="{{this.altForm.tooltip}}"
+                                     data-default-sprite="{{this.spriteSrc}}"
+                                     data-alt-sprite="{{this.altForm.altSprite}}">
+                                </div>
+                            {{/if}}
+                        </div>
+
+                        {{#if this.item.src}}
+                            <img src="{{this.item.src}}" 
+                                 alt="{{this.item.alt}}" 
+                                 class="item {{#if this.item.altSprite}}form-trigger{{/if}}"
+                                 data-default-sprite="{{this.spriteSrc}}"
+                                 data-alt-sprite="{{this.item.altSprite}}">
+                        {{/if}}
+                    </div>
+                    
+                    <div class="info">
+                        <h4>{{this.name}}</h4>
+
+                        {{#if this.types.length}}
+                        <p>
+                            <strong class="label">Type:</strong>
+                            {{#each this.types}}
+                                <img src="{{this.src}}" alt="{{this.alt}}" class="type-icon">
+                            {{/each}}
+                        </p>
+                        {{/if}}
+
+                        {{#if this.details.gender}}
+                        <p><span class="label">Gender:</span> <span class="value">{{this.details.gender}}</span></p>
+                        {{/if}}
+
+                        {{#if this.details.ability}}
+                        <p><span class="label">Ability:</span> <span class="value">{{this.details.ability}}</span></p>
+                        {{/if}}
+
+                        {{#if this.details.nature}}
+                        <p><span class="label">Nature:</span> <span class="value">{{this.details.nature}}</span></p>
+                        {{/if}}
+
+                        {{#if this.item.alt}}
+                        <p><span class="label">Item:</span> <span class="value">{{this.item.alt}}</span></p>
+                        {{/if}}
+
+                        {{#if this.details.captureDate}}
+                        <p><span class="label">Captured:</span> <span class="value">{{this.details.captureDate}}</span></p>
+                        {{/if}}
+                        
+                        {{#if this.moves.length}}
+                        <div class="moves-list">
+                            <strong>Moves:</strong>
+                            <ul>
+                                {{#each this.moves}}
+                                    {{#if this.name}}
+                                        <li>
+                                            <span>{{this.name}}</span> 
+                                            {{#if this.typeSrc}}
+                                                <img src="{{this.typeSrc}}" alt="{{this.typeAlt}}">
+                                            {{/if}}
+                                        </li>
+                                    {{/if}}
+                                {{/each}}
+                            </ul>
+                        </div>
+                        {{/if}}
+                    </div>
+                </div>
+            </li>
+            {{/each}}
+        </ol>
+    </div>
+    {{/if}}
+
+    {{#if moments.length}}
+    <div class="moments-album">
+        <div class="title">
+            <h3>Moments</h3>
+        </div>
+        
+        <div class="moments-grid">
+            {{#each moments}}
+            <div class="moment-thumbnail">
+                <img src="{{this.src}}" alt="{{this.description}}" 
+                     data-bs-toggle="modal" data-bs-target="#moment-{{@index}}">
+            </div>
+
+            <div class="modal fade" id="moment-{{@index}}" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="{{this.src}}" class="img-fluid" alt="{{this.description}}">
+                            
+                            {{#if this.description}}
+                                <p class="moment-description">{{this.description}}</p>
+                            {{/if}}
+
+                            {{#if this.date}}
+                                <span class="moment-date">{{this.date}}</span>
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    {{/if}}
+
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/js/partials.js"></script>
+    <script src="/js/game-page-renderer.js"></script>
+
+</body>
+
+</html>

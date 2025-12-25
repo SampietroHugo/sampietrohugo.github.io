@@ -1,0 +1,258 @@
+{
+    "title": "Pokémon Quetzal",
+    "gameLogoSrc": "/img/hack-roms/logos/quetzal.webp",
+    "trainer": {
+        "id": "50589",
+        "name": "Hyugo",
+        "startDate": "12/25/2025",
+        "pokedexStatus": null,
+        "nationaldexStatus": null,
+        "finished": null,
+        "imageSrc": "/img/hack-roms/trainers/adaman.png",
+        "imageAlt": "Trainer Adaman"
+    },
+    "badges": [],
+    "team": [
+        {
+            "name": "Pikipek",
+            "spriteSrc": "/img/hack-roms/pokemons/gen7/pikipek-shiny.png",
+            "isShiny": true,
+            "details": {
+                "gender": "male",
+                "ability": "Skill Link",
+                "nature": "Hasty",
+                "captureDate": "12/25/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/normal.png",
+                    "alt": "Normal Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "???",
+            "spriteSrc": "/img/structure/sprites/missing-no.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "MM/DD/YYYY"
+            },
+            "types": [
+                {
+                    "src": "/img/types/typeicon.png",
+                    "alt": "Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "???",
+            "spriteSrc": "/img/structure/sprites/missing-no.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "MM/DD/YYYY"
+            },
+            "types": [
+                {
+                    "src": "/img/types/typeicon.png",
+                    "alt": "Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "???",
+            "spriteSrc": "/img/structure/sprites/missing-no.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "MM/DD/YYYY"
+            },
+            "types": [
+                {
+                    "src": "/img/types/typeicon.png",
+                    "alt": "Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "???",
+            "spriteSrc": "/img/structure/sprites/missing-no.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "MM/DD/YYYY"
+            },
+            "types": [
+                {
+                    "src": "/img/types/typeicon.png",
+                    "alt": "Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "???",
+            "spriteSrc": "/img/structure/sprites/missing-no.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "MM/DD/YYYY"
+            },
+            "types": [
+                {
+                    "src": "/img/types/typeicon.png",
+                    "alt": "Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        }
+    ],
+    "moments": []
+}

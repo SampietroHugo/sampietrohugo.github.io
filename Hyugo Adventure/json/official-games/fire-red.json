@@ -1,0 +1,300 @@
+{
+    "title": "Pokémon Fire Red",
+    "gameLogoSrc": "/img/logos/fire-red.png",
+    "trainer": {
+        "id": "29162",
+        "name": "Hyugo",
+        "startDate": "12/15/2025",
+        "pokedexStatus": "???/151",
+        "nationaldexStatus": "???/382",
+        "finished": null,
+        "imageSrc": "/img/trainers/red-frlg.png",
+        "imageAlt": "Trainer Red"
+    },
+    "badges": [
+        {
+            "src": "/img/badges/gen1/boulder.png",
+            "title": "Boulder Badge"
+        },
+        {
+            "src": "/img/badges/gen1/cascade.png",
+            "title": "Cascade Badge"
+        },
+        {
+            "src": "/img/badges/gen1/thunder.png",
+            "title": "Thunder Badge"
+        },
+        {
+            "src": "/img/badges/gen1/rainbow.png",
+            "title": "Rainbow Badge"
+        }
+    ],
+    "team": [
+        {
+            "name": "Charizard",
+            "spriteSrc": "/img/pokemons/FRLG/charizard-shiny.png",
+            "isShiny": true,
+            "details": {
+                "gender": "Male",
+                "ability": "Blaze",
+                "nature": "Hasty",
+                "captureDate": "12/16/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/fire.png",
+                    "alt": "Fire Type"
+                },
+                {
+                    "src": "/img/types/flying.png",
+                    "alt": "Flying Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Vileplume",
+            "spriteSrc": "/img/pokemons/FRLG/vileplume-shiny.png",
+            "isShiny": true,
+            "details": {
+                "gender": "Male",
+                "ability": "Chlorophyll",
+                "nature": "Quiet",
+                "captureDate": "12/19/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/grass.png",
+                    "alt": "Grass Type"
+                },
+                {
+                    "src": "/img/types/poison.png",
+                    "alt": "Poison Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Scyther",
+            "spriteSrc": "/img/pokemons/FRLG/scyther-shiny.png",
+            "isShiny": true,
+            "details": {
+                "gender": "Male",
+                "ability": "Swarm",
+                "nature": "Lonely",
+                "captureDate": "12/21/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/bug.png",
+                    "alt": "Bug Type"
+                },
+                {
+                    "src": "/img/types/flying.png",
+                    "alt": "Flying Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Haunter",
+            "spriteSrc": "/img/pokemons/FRLG/haunter-shiny.png",
+            "isShiny": true,
+            "details": {
+                "gender": "Male",
+                "ability": "Levitate",
+                "nature": "Naughty",
+                "captureDate": "12/21/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/ghost.png",
+                    "alt": "Ghost Type"
+                },
+                {
+                    "src": "/img/types/poison.png",
+                    "alt": "Poison Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "???",
+            "spriteSrc": "/img/structure/sprites/missing-no.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "--/--/----"
+            },
+            "types": [
+                {
+                    "src": "/img/types/typeicon.png",
+                    "alt": "Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "???",
+            "spriteSrc": "/img/structure/sprites/missing-no.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "--/--/----"
+            },
+            "types": [
+                {
+                    "src": "/img/types/typeicon.png",
+                    "alt": "Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png"
+                }
+            ],
+            "altForm": null
+        }
+    ],
+    "moments": [
+        {
+            "src": "/img/archives/fire-red/charmander-shiny.png",
+            "date": "12/16/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/boulder-badge.png",
+            "date": "12/16/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/cascade-badge.png",
+            "date": "12/16/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/oddish-shiny.png",
+            "date": "12/19/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/thunder-badge.png",
+            "date": "12/20/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/rainbow-badge.png",
+            "date": "12/20/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/scyther-shiny.png",
+            "date": "12/21/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/gastly-shiny.png",
+            "date": "12/21/2025"
+        }
+    ]
+}

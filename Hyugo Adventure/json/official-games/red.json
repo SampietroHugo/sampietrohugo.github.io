@@ -1,0 +1,312 @@
+{
+    "title": "Pokémon Red",
+    "gameLogoSrc": "/img/logos/red.png",
+    "trainer": {
+        "id": "62319",
+        "name": "Hyugo",
+        "startDate": "12/10/2025",
+        "pokedexStatus": "???/151",
+        "nationaldexStatus": null,
+        "finished": null,
+        "imageSrc": "/img/trainers/red-rby.png",
+        "imageAlt": "Trainer Red"
+    },
+    "badges": [
+        {
+            "src": "/img/badges/gen1/boulder.png",
+            "title": "Boulder Badge"
+        },
+        {
+            "src": "/img/badges/gen1/cascade.png",
+            "title": "Cascade Badge"
+        },
+        {
+            "src": "/img/badges/gen1/thunder.png",
+            "title": "Thunder Badge"
+        },
+        {
+            "src": "/img/badges/gen1/rainbow.png",
+            "title": "Rainbow Badge"
+        }
+    ],
+    "team": [
+        {
+            "name": "Charizard",
+            "spriteSrc": "/img/pokemons/RB/charizard.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "12/10/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/fire.png",
+                    "alt": "Fire Type"
+                },
+                {
+                    "src": "/img/types/flying.png",
+                    "alt": "Flying Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "Scratch",
+                    "typeSrc": "/img/types/normal.png",
+                    "typeAlt": "Normal Type"
+                },
+                {
+                    "name": "Growl",
+                    "typeSrc": "/img/types/normal.png",
+                    "typeAlt": "Normal Type"
+                },
+                {
+                    "name": "Ember",
+                    "typeSrc": "/img/types/fire.png",
+                    "typeAlt": "Fire Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Pidgeot",
+            "spriteSrc": "/img/pokemons/RB/pidgeot.png",
+            "isShiny": false,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "12/10/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/normal.png",
+                    "alt": "Normal Type"
+                },
+                {
+                    "src": "/img/types/flying.png",
+                    "alt": "Flying Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "Guts",
+                    "typeSrc": "/img/types/flying.png",
+                    "typeAlt": "Flying Type"
+                },
+                {
+                    "name": "Sand-Atack",
+                    "typeSrc": "/img/types/ground.png",
+                    "typeAlt": "Ground Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Nidoqueen",
+            "spriteSrc": "/img/pokemons/RB/nidoqueen.png",
+            "isShiny": false,
+            "item": null,
+            "details": {
+                "gender": "Female",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "12/10/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/poison.png",
+                    "alt": "Poison Type"
+                },
+                {
+                    "src": "/img/types/ground.png",
+                    "alt": "Ground Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Gloom",
+            "spriteSrc": "/img/pokemons/RB/gloom.png",
+            "isShiny": false,
+            "item": null,
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "12/10/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/grass.png",
+                    "alt": "Grass Type"
+                },
+                {
+                    "src": "/img/types/poison.png",
+                    "alt": "Poison Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Electode",
+            "spriteSrc": "/img/pokemons/RB/electrode.png",
+            "isShiny": false,
+            "item": "???",
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "12/12/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/electric.png",
+                    "alt": "Electric Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        },
+        {
+            "name": "Vaporeon",
+            "spriteSrc": "/img/pokemons/RB/vaporeon.png",
+            "isShiny": false,
+            "item": "???",
+            "details": {
+                "gender": "???",
+                "ability": "???",
+                "nature": "???",
+                "captureDate": "12/15/2025"
+            },
+            "types": [
+                {
+                    "src": "/img/types/water.png",
+                    "alt": "Water Type"
+                }
+            ],
+            "moves": [
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                },
+                {
+                    "name": "None",
+                    "typeSrc": "/img/types/typeicon.png",
+                    "typeAlt": "Type"
+                }
+            ],
+            "altForm": null
+        }
+    ],
+    "moments": [
+        {
+            "src": "/img/archives/red/first-gym.png",
+            "date": "12/10/2025"
+        },
+        {
+            "src": "/img/archives/red/second-gym.png",
+            "date": "12/10/2025"
+        },
+        {
+            "src": "/img/archives/red/third-gym.png",
+            "date": "12/12/2025"
+        },
+        {
+            "src": "/img/archives/red/fourth-gym.png",
+            "date": "12/12/2025"
+        }
+    ]
+}

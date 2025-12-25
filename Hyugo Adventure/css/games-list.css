@@ -1,0 +1,108 @@
+.games-list-page {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #4a8b8b;
+}
+
+.games-list-page h1 {
+    display: inline-block;
+    background: linear-gradient(90deg, #4A8B8B, #3B4ACC);
+    color: #fff;
+    padding: 12px 25px;
+    border: 4px solid #3B4ACC;
+    border-radius: 8px;
+    text-shadow: 2px 2px 0px #2c3a99;
+    box-shadow: 0 3px 0 #2c3a99, inset 0 1px 3px #fff8;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.console-group {
+    background-color: #101c27;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #3B4CCA;
+    margin-top: 2.5rem;
+}
+
+.console-title {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px 1px #3B4CCA;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.console-title::before {
+    content: '';
+    flex-grow: 1;
+    height: 2px;
+    background-color: #3B4CCA;
+    margin-right: 1.5rem;
+}
+
+.console-title::after {
+    content: '';
+    flex-grow: 1;
+    height: 2px;
+    background-color: #3B4CCA;
+    margin-left: 1.5rem;
+}
+
+.game-card {
+    display: block;
+    text-decoration: none;
+    background-color: #1c3042;
+    border-radius: 8px;
+    height: 100%;
+    border: 1px solid #4a8b8b;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    border-color: #FFDE00;
+    box-shadow: 0 4px 15px rgba(255, 222, 0, 0.2);
+}
+
+.game-card img {
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.game-card-title {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.horizontal-scroll-wrapper {
+    overflow-x: auto;
+    padding: 1rem;
+}
+
+.horizontal-scroll-wrapper::-webkit-scrollbar-thumb {
+    background-color: #3B4CCA;
+    border-radius: 10px;
+    border: 3px solid #1a1a1a;
+}
+
+.horizontal-scroll-wrapper::-webkit-scrollbar-track {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.horizontal-scroll-wrapper::-webkit-scrollbar {
+    height: 12px;
+}
