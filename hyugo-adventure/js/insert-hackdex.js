@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (list.length === 0) {
                 pokeContainer.innerHTML = `
                     <div class="col-12 pokedex-no-results">
-                        <img src="/img/structure/gifs/confused.gif" class="no-results-gif">
+                        <img src=./img/structure/gifs/confused.gif" class="no-results-gif">
                         <p>No Pokémon found for this filter.</p>
                     </div>
                 `;

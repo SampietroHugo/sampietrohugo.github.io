@@ -39,7 +39,7 @@ body {
     box-shadow: 0 0 0 3px #f5d85b, 0 0 0 8px #4a5b6e, 0 8px 15px rgba(0, 0, 0, 0.5);
     color: #c9d0e1;
     padding: 0;
-    background-image: url('/img/structure/background/trainer-card.png');
+    background-image: url('./img/structure/background/trainer-card.png');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
