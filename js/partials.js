@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.addEventListener('resize', setToggleAttribute);
     };
 
-    loadComponent("./partials/header.html", 'header-placeholder');
-    loadComponent("./partials/footer.html", 'footer-placeholder');
+    loadComponent('/partials/header.html', 'header-placeholder');
+    loadComponent('/partials/footer.html', 'footer-placeholder');
 
 });

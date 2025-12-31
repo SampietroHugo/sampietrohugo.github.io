@@ -306,11 +306,11 @@
 }
 
 .pokedex-card-icon-shiny {
-    background-image: url('./img/structure/icon/shiny.png');
+    background-image: url('/img/structure/icon/shiny.png');
 }
 
 .pokedex-card-icon-trade {
-    background-image: url('./img/structure/icon/trade.png');
+    background-image: url('/img/structure/icon/trade.png');
 }
 
 .pokedex-card-info {
@@ -519,11 +519,11 @@
 }
 
 .pokedex-header-icon.shiny {
-    background-image: url('./img/structure/icon/shiny.png');
+    background-image: url('/img/structure/icon/shiny.png');
 }
 
 .pokedex-header-icon.trade {
-    background-image: url('./img/structure/icon/trade.png');
+    background-image: url('/img/structure/icon/trade.png');
 }
 
 .pokedex-modal-entry {

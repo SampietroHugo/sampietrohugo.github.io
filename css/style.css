@@ -15,7 +15,7 @@ body {
 .top {
     text-align: center;
     padding: 40px 20px;
-    background-image: url('./img/structure/background/hoenn.jpg');
+    background-image: url('/img/structure/background/hoenn.jpg');
     background-size: cover;
     background-position: top;
 }
@@ -30,7 +30,7 @@ body {
 .menu {
     font-size: 12px;
 
-    background-image: url('./img/structure/background/hoenn-menu.jpg');
+    background-image: url('/img/structure/background/hoenn-menu.jpg');
     background-size: cover;
     background-position: top;
 
@@ -185,7 +185,7 @@ body {
 
 
 .footer-main {
-    background-image: url('./img/structure/background/hoenn-footer.jpg');
+    background-image: url('/img/structure/background/hoenn-footer.jpg');
     border-top: 2px solid #FFDE00;
     background-size: cover;
     background-position: center;
