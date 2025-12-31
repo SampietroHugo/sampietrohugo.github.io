@@ -11,24 +11,7 @@
         "imageSrc": "/img/trainers/red-rby.png",
         "imageAlt": "Trainer Red"
     },
-    "badges": [
-        {
-            "src": "/img/badges/gen1/boulder.png",
-            "title": "Boulder Badge"
-        },
-        {
-            "src": "/img/badges/gen1/cascade.png",
-            "title": "Cascade Badge"
-        },
-        {
-            "src": "/img/badges/gen1/thunder.png",
-            "title": "Thunder Badge"
-        },
-        {
-            "src": "/img/badges/gen1/rainbow.png",
-            "title": "Rainbow Badge"
-        }
-    ],
+    "badges": [],
     "team": [
         {
             "name": "Charizard",

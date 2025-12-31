@@ -1,0 +1,214 @@
+{
+    "pokemons": [
+        {
+            "type": [
+                "fire",
+                "flying"
+            ],
+            "image": "/img/pokemons/FRLG/charizard-shiny.png",
+            "name": "Charizard",
+            "number": "#0006",
+            "species": "Flame Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "Its wings can carry this POKéMON close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/16/2025",
+                "location": "Pallet Town",
+                "level": 5,
+                "nature": "Hasty",
+                "gender": "male",
+                "ability": "Blaze",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Soft Resetting",
+                "startDate": "12/15/2025",
+                "endDate": "12/16/2025",
+                "targetPokemon": "Charmander",
+                "phases": "1",
+                "totalEncounters": 2860
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "grass",
+                "poison"
+            ],
+            "image": "/img/pokemons/FRLG/vileplume-shiny.png",
+            "name": "Vileplume",
+            "number": "#0045",
+            "species": "Flower Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "Its petals are the largest in the world. It fiendishly scatters allergy-causing pollen from its petals.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/19/2025",
+                "location": "Route 25",
+                "level": 13,
+                "nature": "Quiet",
+                "gender": "male",
+                "ability": "Chlorophyll",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Random Encounter",
+                "startDate": "12/17/2025",
+                "endDate": "12/19/2025",
+                "targetPokemon": "Oddish",
+                "phases": "1",
+                "totalEncounters": 21870
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "bug",
+                "flying"
+            ],
+            "image": "/img/pokemons/FRLG/scyther-shiny.png",
+            "name": "Scyther",
+            "number": "#0123",
+            "species": "Mantis Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/21/2025",
+                "location": "Celadon City",
+                "level": 25,
+                "nature": "Lonely",
+                "gender": "male",
+                "ability": "Swarm",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Soft Resetting",
+                "startDate": "12/21/2025",
+                "endDate": "12/21/2025",
+                "targetPokemon": "Scyther",
+                "phases": "1",
+                "totalEncounters": 268
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "ghost",
+                "poison"
+            ],
+            "image": "/img/pokemons/FRLG/haunter-shiny.png",
+            "name": "Haunter",
+            "number": "#0093",
+            "species": "Gas Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "If you get the feeling of being watched in darkness when nobody is around, HAUNTER is there.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/21/2025",
+                "location": "Pokémon Tower",
+                "level": 13,
+                "nature": "Naughty",
+                "gender": "male",
+                "ability": "Levitate",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Random Encounter",
+                "startDate": "12/21/2025",
+                "endDate": "12/21/2025",
+                "targetPokemon": "Gastly",
+                "phases": "1",
+                "totalEncounters": 668
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "water",
+                "ice"
+            ],
+            "image": "/img/pokemons/FRLG/lapras-shiny.png",
+            "name": "Lapras",
+            "number": "#0131",
+            "species": "Transport Pokémon",
+            "game": "Fire Red",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "Its high intelligence enables it to understand human speech. It likes to ferry people on its back.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/26/2025",
+                "location": "Silph Co.",
+                "level": 25,
+                "nature": "Rash",
+                "gender": "female",
+                "ability": "Water Absorb",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Soft Resetting",
+                "startDate": "12/22/2025",
+                "endDate": "12/26/2025",
+                "targetPokemon": "Lapras",
+                "phases": "1",
+                "totalEncounters": 4702
+            },
+            "altForm": null
+        },
+        {
+            "type": [
+                "electric",
+                "steel"
+            ],
+            "image": "/img/pokemons/FRLG/magnemite-shiny.png",
+            "name": "Magnemite",
+            "number": "#0081",
+            "species": "Magnet Pokémon",
+            "game": "Fire Red",
+            "team": false,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "It moves while constantly hovering. It discharges THUNDER WAVE and so on from the units at its sides.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/30/2025",
+                "location": "Power Plant",
+                "level": 25,
+                "nature": "Hasty",
+                "gender": "genderless",
+                "ability": "Sturdy",
+                "ot": "Hyugo",
+                "idNo": "29162"
+            },
+            "shinyHunt": {
+                "method": "Random Encounter",
+                "startDate": "12/26/2025",
+                "endDate": "12/30/2025",
+                "targetPokemon": "Pikachu",
+                "phases": "1",
+                "totalEncounters": 22856
+            },
+            "altForm": null
+        }
+    ]
+}

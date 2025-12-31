@@ -27,6 +27,10 @@
                 {
                     "src": "/img/types/normal.png",
                     "alt": "Normal Type"
+                },
+                {
+                    "src": "/img/types/flying.png",
+                    "alt": "Flying Type"
                 }
             ],
             "moves": [
@@ -54,19 +58,19 @@
             "altForm": null
         },
         {
-            "name": "???",
-            "spriteSrc": "/img/structure/sprites/missing-no.png",
-            "isShiny": false,
+            "name": "Grubbin",
+            "spriteSrc": "/img/hack-roms/pokemons/gen7/grubbin-shiny.png",
+            "isShiny": true,
             "details": {
-                "gender": "???",
-                "ability": "???",
-                "nature": "???",
-                "captureDate": "MM/DD/YYYY"
+                "gender": "Female",
+                "ability": "Swarm",
+                "nature": "Naive",
+                "captureDate": "12/25/2025"
             },
             "types": [
                 {
-                    "src": "/img/types/typeicon.png",
-                    "alt": "Type"
+                    "src": "/img/types/bug.png",
+                    "alt": "Bug Type"
                 }
             ],
             "moves": [

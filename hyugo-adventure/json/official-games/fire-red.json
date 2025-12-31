@@ -27,6 +27,14 @@
         {
             "src": "/img/badges/gen1/rainbow.png",
             "title": "Rainbow Badge"
+        },
+        {
+            "src": "/img/badges/gen1/soul.png",
+            "title": "Soul Badge"
+        },
+        {
+            "src": "/img/badges/gen1/marsh.png",
+            "title": "Marsh Badge"
         }
     ],
     "team": [
@@ -191,19 +199,23 @@
             "altForm": null
         },
         {
-            "name": "???",
-            "spriteSrc": "/img/structure/sprites/missing-no.png",
-            "isShiny": false,
+            "name": "Lapras",
+            "spriteSrc": "/img/pokemons/FRLG/lapras-shiny.png",
+            "isShiny": true,
             "details": {
-                "gender": "???",
-                "ability": "???",
-                "nature": "???",
-                "captureDate": "--/--/----"
+                "gender": "Female",
+                "ability": "Water Absorb",
+                "nature": "Rash",
+                "captureDate": "12/25/2025"
             },
             "types": [
                 {
-                    "src": "/img/types/typeicon.png",
-                    "alt": "Type"
+                    "src": "/img/types/water.png",
+                    "alt": "Water Type"
+                },
+                {
+                    "src": "/img/types/ice.png",
+                    "alt": "Ice Type"
                 }
             ],
             "moves": [
@@ -295,6 +307,22 @@
         {
             "src": "/img/archives/fire-red/gastly-shiny.png",
             "date": "12/21/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/lapras-shiny.png",
+            "date": "12/25/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/marsh-badge.png",
+            "date": "12/25/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/soul-badge.png",
+            "date": "12/25/2025"
+        },
+        {
+            "src": "/img/archives/fire-red/magnemite-shiny.png",
+            "date": "12/30/2025"
         }
     ]
 }

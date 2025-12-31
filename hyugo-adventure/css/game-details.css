@@ -507,7 +507,7 @@ body {
 .modal-body img {
     border-radius: 4px;
     max-width: 100%;
-    height: auto;
+    height: 200px;
     margin: 0 auto;
     max-height: 300px;
     object-fit: contain;

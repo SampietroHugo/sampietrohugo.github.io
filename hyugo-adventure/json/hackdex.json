@@ -26,6 +26,32 @@
                 "idNo": "50589"
             },
             "altForm": null
+        },
+        {
+            "type": [
+                "bug"
+            ],
+            "image": "/img/hack-roms/pokemons/gen7/grubbin-shiny.png",
+            "name": "Grubbin",
+            "number": "#0736",
+            "species": "Larva Pokémon",
+            "game": "Quetzal",
+            "team": true,
+            "shiny": true,
+            "trade": false,
+            "pokedexEntry": "They often gather near places frequented by electric Pokémpon ir order to avoid being attacked by bird Pokémon, though it normally lives underground.",
+            "captureInfo": {
+                "ball": "/img/item/balls/poke-ball.png",
+                "date": "12/25/2025",
+                "location": "Route 102",
+                "level": 4,
+                "nature": "Naive",
+                "gender": "female",
+                "ability": "Swarm",
+                "ot": "Hyugo",
+                "idNo": "50589"
+            },
+            "altForm": null
         }
     ]
 }
