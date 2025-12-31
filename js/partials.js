@@ -1,6 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const loadComponent = (url, elementId) => {
+    const getBasePath = () => {
+        const path = window.location.pathname;
+
+        if (path.includes('/official-games/')) {
+            return '../../';
+        }
+        else if (path.includes('/pages/')) {
+            return '../';
+        }
+        return './';
+    };
+
+    const basePath = getBasePath();
+
+    const loadComponent = (fileName, elementId) => {
+        const url = basePath + fileName;
+
         fetch(url)
             .then(response => {
                 if (!response.ok) {
@@ -9,9 +25,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 return response.text();
             })
             .then(data => {
+                let fixedData = data.replaceAll('src="./', `src="${basePath}`);
+                fixedData = fixedData.replaceAll('href="./', `href="${basePath}`);
+
                 const placeholder = document.getElementById(elementId);
                 if (placeholder) {
-                    placeholder.outerHTML = data;
+                    placeholder.outerHTML = fixedData;
                 }
 
                 if (elementId === 'header-placeholder') {
@@ -20,8 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .catch(error => {
                 console.error('Error loading component:', error);
-                const el = document.getElementById(elementId);
-                if (el) el.innerHTML = "<p>Error loading content.</p>";
             });
     };
 
@@ -40,11 +57,13 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         };
 
-        setToggleAttribute();
-        window.addEventListener('resize', setToggleAttribute);
+        if (toggles.length > 0) {
+            setToggleAttribute();
+            window.addEventListener('resize', setToggleAttribute);
+        }
     };
 
-    loadComponent('./partials/header.html', 'header-placeholder');
-    loadComponent('./partials/footer.html', 'footer-placeholder');
+    loadComponent('partials/header.html', 'header-placeholder');
+    loadComponent('partials/footer.html', 'footer-placeholder');
 
 });
