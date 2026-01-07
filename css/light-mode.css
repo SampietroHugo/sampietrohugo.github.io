@@ -1,0 +1,150 @@
+#themeToggle {
+    background: transparent;
+    border: 2px solid #a855f7;
+    color: #a855f7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    margin-left: 15px;
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.2);
+}
+
+#themeToggle:hover {
+    background: #a855f7;
+    color: #ffffff;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
+body.light-mode {
+    background: linear-gradient(135deg, #f3e8ff, #ffffff, #e9d5ff);
+    color: #3b0764;
+}
+
+body.light-mode .navbar {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    border-bottom: 1px solid rgba(168, 85, 247, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .navbar-brand {
+    color: #4c1d95 !important;
+}
+
+body.light-mode .nav-link {
+    color: #6b21a8 !important;
+}
+
+body.light-mode .nav-link:hover,
+body.light-mode .nav-link.active {
+    color: #9333ea !important;
+    text-shadow: none;
+}
+
+body.light-mode .nav-link::after {
+    background-color: #9333ea;
+}
+
+body.light-mode .navbar-toggler i {
+    color: #4c1d95 !important;
+}
+
+body.light-mode .home-content h1 {
+    color: #3b0764;
+}
+
+body.light-mode .home-content h2 {
+    color: #581c87;
+}
+
+body.light-mode .home-content p {
+    color: #4b5563;
+}
+
+body.light-mode .multiple-text {
+    color: #9333ea;
+    text-shadow: none;
+}
+
+body.light-mode .btn {
+    box-shadow: 0 5px 15px rgba(147, 51, 234, 0.3);
+}
+
+body.light-mode .social-media a {
+    color: #7e22ce;
+    border-color: #7e22ce;
+    box-shadow: none;
+}
+
+body.light-mode .social-media a:hover {
+    background-color: #7e22ce;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(126, 34, 206, 0.4);
+}
+
+body.light-mode .home-img img {
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.25);
+}
+
+body.light-mode section.grid h3,
+body.light-mode section h2 {
+    color: #4c1d95;
+    border-bottom-color: #9333ea;
+}
+
+body.light-mode .grid-card,
+body.light-mode .card {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border: 1px solid rgba(168, 85, 247, 0.2) !important;
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.1);
+}
+
+body.light-mode .grid-card:hover,
+body.light-mode .card:hover {
+    background-color: #ffffff !important;
+    border-color: #9333ea !important;
+    box-shadow: 0 15px 35px rgba(147, 51, 234, 0.25);
+    transform: translateY(-10px);
+}
+
+body.light-mode .grid-card h4,
+body.light-mode .card h5 {
+    color: #3b0764 !important;
+}
+
+body.light-mode .grid-card p,
+body.light-mode .card p {
+    color: #4b5563 !important;
+}
+
+body.light-mode .grid-card strong {
+    color: #7e22ce;
+}
+
+body.light-mode .card i {
+    color: #7e22ce;
+    text-shadow: none;
+}
+
+body.light-mode .text-light {
+    color: #3b0764 !important;
+}
+
+body.light-mode .text-secondary {
+    color: #4b5563 !important;
+}
+
+body.light-mode #themeToggle {
+    border-color: #7e22ce;
+    color: #7e22ce;
+}
+
+body.light-mode #themeToggle:hover {
+    background-color: #7e22ce;
+    color: #ffffff;
+}
